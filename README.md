@@ -1,6 +1,6 @@
-# ⚡ React 19 + Vite + Tailwind + shadcn/ui Starter
+# ⚡ React 19 + Typescript + Vite + Tailwind + shadcn/ui + PWA Starter
 
-A modern React 19 boilerplate powered by **Vite**, styled with **Tailwind CSS**, and enhanced with **shadcn/ui** for beautiful, accessible components — all pre-configured with **ESLint** and **Prettier** for a smooth developer experience.
+A modern React 19 boilerplate powered by **Vite**, styled with **Tailwind CSS**, and enhanced with **shadcn/ui** for beautiful, accessible components — all pre-configured with **ESLint**, **Prettier**, and **Progressive Web App (PWA)** support for a smooth developer and user experience.
 
 ---
 
