@@ -1,5 +1,5 @@
-// eslint.config.js
-import * as js from '@eslint/js'
+// eslint.config.js  (Flat-config style)
+import js from '@eslint/js'
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y'
 import prettierPlugin from 'eslint-plugin-prettier'
 import reactPlugin from 'eslint-plugin-react'
@@ -8,6 +8,9 @@ import simpleImportSortPlugin from 'eslint-plugin-simple-import-sort'
 import * as tseslint from 'typescript-eslint'
 
 export default [
+  {
+    ignores: ['node_modules', 'dist', 'build', 'coverage', '.next', 'out', 'eslint.config.js']
+  },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
